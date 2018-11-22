@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    
+	<link rel="stylesheet" type="text/css" href="./css/base.css" />
+	<link rel="stylesheet" type="text/css" href="./css/main.css" />
+	<script src="https://unpkg.com/react@latest/umd/react.development.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react-dom@latest/umd/react-dom.development.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@material-ui/core/umd/material-ui.development.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/babel-standalone@latest/babel.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<title>테스트 페이지</title>
+</head>
+
+<body>
+	 <script type="text/babel">
+const {
+  TextField,
+  Button,
+  colors,
+  createMuiTheme,
+  CssBaseline,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
+  Icon,
+  MuiThemeProvider,
+  Typography,
+  withStyles,
+
+} = window['material-ui'];
+
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      light: colors.purple[300],
+      main: colors.purple[500],
+      dark: colors.purple[700],
+    },
+    secondary: {
+      light: colors.green[300],
+      main: colors.green[500],
+      dark: colors.green[700],
+    },
+  },
+  typography: {
+    useNextVariants: true,
+  },
+});
+
+const styles = theme => ({
+  container: {
+    display: 'flex',
+    flexWrap: 'wrap',
+  },
+  textField: {
+    marginLeft: theme.spacing.unit,
+    marginRight: theme.spacing.unit,
+    width: 300,
+  },
+});
+
+function DatePikker(props){
+  const { classes } = props;
+}
+
+class Index extends React.Component {
+  state = {
+    open: false,
+  };
+
+  handleClose = () => {
+    this.setState({
+      open: false,
+    });
+  };
+
+  handleClick = () => {
+    this.setState({
+      open: true,
+    });
+  };
+
+  render() {
+    const { classes } = this.props;
+    const { open } = this.state;
+
+    return (
+      <form className={classes.container} noValidate>
+        <TextField
+          id="date"
+          //label="Birthday"
+          type="date"
+          //defaultValue="2017-05-24"
+          className={classes.textField}
+          InputLabelProps={{
+            shrink: true,
+          }}
+        />
+      </form>
+    );
+  }
+}
+
+const App = withStyles(styles)(Index);
+
+ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+
+	<div id="wrapper">
+		
+			<div class="main_top02">
+				<img src="../images/icon_step02.png" alt="step02" />
+				<a href="#">취소</a>
+			</div>
+			
+			<div class="main_con01">
+				
+				<div class="main_scon05">
+					<p>신분증 정보 확인</p>
+				</div>
+				
+				<div class="main_scon05_01 txt_red01">
+					<p>※ 운전면허번호 가운데 6자리를 입력해주세요.</p>
+				</div>
+				
+				<div class="main_scon05_02">
+					<img src="../images/img_photo01.png" alt="촬영된사진"/>
+				</div>
+				
+				<div class="ml28 mr28" >
+					
+					<table class="list01" summary="결과">
+					<colgroup>
+						<col width="25%">
+						<col width="75%">
+					</colgroup>
+					<tbody>
+						<tr>
+							<th scope="row">이름</th>
+							<td>
+								<input class="input_main01" type="text" value="김한국"/ >
+							</td>
+						</tr>
+						<tr>
+								<th scope="row">주민등록번호</th>
+								<td class="input_w01">
+									<input class="input_main01" type="text" value="941010" / >
+									-
+									<input class="input_main01" type="password" value="0000000" / >
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">발급일자</th>
+								<td class="pore">
+									<div id="root"></div>
+									<!-- <input class="input_main01" type="text" value="2010.11.28"/ > -->
+									<a href="#" class="btn_cal"><img src="../images/btn_cal.png" alt="달력버튼"></a>
+								</td>
+							</tr>
+							<tr> <!-- 20181030수정-->
+								<th scope="row">운전면허번호</th>
+								<td class="input_w02">
+									<a href="#" class="select_custom03">
+									서울<img src="../images/bul_btn01.png" alt="버튼 블릿" width="12.75"/>
+									</a>
+									<input class="input_main01" style="width:13%;" type="password" value="11" / >
+									-
+									<input class="input_main01" style="width:30%;" type="password" value="000000" / >
+									-
+									<input class="input_main01" style="width:13%;" type="password" value="12" / >
+								</td>
+							</tr>
+					</tbody>
+				</table>
+					
+				</div>
+				
+			</div>
+			
+			<div class="btn_bottom_area01">
+				<a href="#" class="btn_bottom02 w50p f_l">재촬영</a>
+				<a href="#" class="btn_bottom01 w50p f_l">촬영</a>
+			</div>
+			
+	</div>
+    
+</body>
+
+</html>

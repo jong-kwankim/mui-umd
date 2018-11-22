@@ -1,0 +1,1934 @@
+@charset "utf-8";
+
+
+/***********레이아웃***********/
+
+#wrapper {
+   width: 100vw;
+   position: relative;
+}
+
+/*intro*/
+.intro_con01 {
+	background-color: #2f375c;
+	height: 312px;
+	position: relative;
+}
+.intro_con01_txtarea {
+	padding-top: 80px;
+	margin-left: 28px;
+}
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.intro_con01_txtarea {
+		margin-left: 18px;
+	}
+}
+	
+.intro_con01 p {
+	color: #fff;
+}
+
+.intro_con01 p:first-child {
+	font-size: 1.294rem
+}
+
+.intro_con01 p:last-child {
+	padding-top: 30px;
+	font-size: 2.706rem
+}
+
+.bg_intro01 {
+	position: absolute;
+	bottom:-5px;
+	right: 0;
+}
+
+.bg_intro01 img {
+	width: 200px;
+}
+
+.intro_con02 {
+	background-color: #fff;
+	height: 400px;
+	position: relative;
+}
+
+.intro_con02 div img:first-child {
+	width: 151px;
+}
+
+.intro_con02 div img:last-child {
+	width: 340px;
+}
+
+.intro_con02_txtarea {
+	padding-top: 57px;
+	margin-left: 28px;
+}
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.intro_con02_txtarea {
+		margin-left: 18px;
+	}
+}
+
+.intro_con02 p {
+	color: #000;
+}
+
+.intro_con02 p:first-child {
+	font-size: 1.529rem
+}
+
+.intro_con02 p:last-child {
+	padding-top: 26px;
+	font-size: 0.824rem;
+	line-height: 1.5;
+}
+
+.bg_intro02_01 {
+	position: absolute;
+	bottom:0px;
+	right: 0;
+}
+
+.bg_intro02_02 {
+	position: absolute;
+	bottom:0px;
+	right: 45px;
+}
+
+
+.intro_con03 {
+	background-color: #f0f0f0;
+	height: 460px;
+	text-align: center;
+	
+}
+
+.intro_con03_01_txtarea {
+	padding: 50px 0 41px 0;
+}
+
+.intro_con03_01_txtarea p {
+	font-size: 1.529rem;
+	color: #000;
+}
+
+.intro_con03_02_txtarea p:first-child {
+	padding-top: 30px;
+	font-size: 0.824rem;
+	line-height: 1.7;
+	color: #000;
+}
+
+.intro_con03_02_txtarea p:last-child {
+	padding-top: 10px;
+	font-size: 0.857rem;
+	color: #000;
+}
+
+.intro_con04 {
+	background-color: #fff;
+	height: 390px;
+	position: relative;
+}
+
+.intro_con04_txtarea {
+	padding-top: 90px;
+	margin-left: 28px;
+	width: 45%;
+}
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.intro_con04_txtarea {
+		margin-left: 18px;
+	}
+}
+
+
+.intro_con04 p {
+	color: #000;
+}
+
+.intro_con04 p:first-child {
+	font-size: 1.529rem
+}
+
+.intro_con04 p:last-child {
+	padding-top: 66px;
+	font-size: 0.824rem;
+	line-height: 1.5;
+}
+
+.bg_intro04 {
+	position: absolute;
+	bottom: 55px;
+	right: 18px;
+}
+
+.intro_con05 {
+	background-color: #f0f0f0;
+	height: 210px;
+	position: relative;
+}
+
+.intro_con05_txtarea {
+	padding-top: 60px;
+	margin-left: 28px;
+}
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.intro_con05_txtarea {
+		margin-left: 18px;
+	}
+}
+
+
+.intro_con05 p {
+	color: #000;
+}
+
+.intro_con05 p:first-child {
+	font-size: 1rem;
+	font-weight: bold;
+	
+}
+
+.intro_con05 p:last-child {
+	padding-top: 15px;
+	font-size: 0.857rem;
+	line-height: 1.5;
+}
+
+
+/* /intro*/
+
+
+.main_top01 {
+	height: 57px;
+	/*background-color: #fee4e4;*/
+	background-color: #fff;
+	position: fixed;
+    top: 0;
+	width: 100%;
+}
+
+.main_top01 h1 {
+	font-size: 1.176rem;
+	line-height: 56px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.main_top02 {
+	height: 50px;
+	line-height: 58px;
+	/*background-color: #fee4e4;*/
+	padding: 0 26px;
+	background-color: #fff;
+	position: fixed;
+    top: 0;
+	width: calc(100% - 56px);
+	z-index: 5;
+}
+
+.main_top02 img {
+	width: 67.1428px;
+}
+
+.main_top02 h1 {
+	font-size: 1.176rem;
+	line-height: 56px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.main_top02 a {
+	font-size: 1rem;
+	position: absolute;
+	right:28px;
+	top: -3px;
+}
+
+
+.main_con01 {
+	padding: 50px 0px 90px 0;	
+}
+
+
+/* main_scon01 */
+.main_scon01 {
+	padding-left: 24px;
+	font-size: 0.824rem;
+	color: #787878;
+	line-height: 1.5;
+	background: url("../images/bul_descript.png") no-repeat scroll 1% 3px / 15px 15px;
+}
+
+/* main_scon02 */
+.main_scon02 {
+	margin: 20px 28px 0 28px;
+	font-size: 1.529rem;
+	line-height: 2;
+	color: #a0a0a0;
+}
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon02 {
+		margin: 20px 18px 0 18px;
+	}
+}
+
+
+
+/* main_scon03 */
+.main_scon03 {
+	margin: 0 auto;
+	padding: 50px 32px 0 32px;
+	background: url("../images/bg_lpop01.png") no-repeat scroll 1% 1% / 366px 249px;
+	width: 302px;
+	height: 199px;
+}
+
+.main_scon03_01 {
+	margin: 0 auto;
+	padding: 50px 32px 0 32px;
+	background: url("../images/bg_lpop01_01.png") no-repeat scroll 1% 1% / 366px 175px;
+	width: 302px;
+	height: 125px;
+}
+
+.main_scon03_02 {
+	margin: 0 auto;
+	padding: 50px 32px 0 32px;
+	background: url("../images/bg_lpop01_02.png") no-repeat scroll 1% 1% / 366px 147px;
+	width: 302px;
+	height: 97px;
+}
+
+.main_scon03_03 {
+	margin: 0 auto;
+	padding: 55px 32px 0 32px;
+	background: url("../images/bg_lpop01_03.png") no-repeat scroll 1% 1% / 366px 121px;
+	width: 302px;
+	height: 66px;
+}
+
+.main_scon03 p:first-child,.main_scon03_01 p:first-child,.main_scon03_02 p:first-child,.main_scon03_03 p:first-child   {
+	font-size: 1.176rem;
+	line-height: 1.5;
+	color: #404040;
+	font-weight: bold;
+}
+
+.main_scon03 p,.main_scon03_01 p {
+	font-size: 0.912rem;
+	color: #787878;
+}
+
+.main_scon03 a {
+	margin-top: 15px;
+	background-color: #04c0ba;
+	color: #fff;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 23px;
+	font-size: 0.882rem;
+	display: inline-block;
+	padding-left: 19px;
+	width: calc(100% - 19px)
+}
+
+
+/* main_scon04 */
+.main_scon04 {
+	margin: 15px 28px 0 28px;
+	font-size: 2.176rem;
+	line-height: 1.7;
+	color: #000;
+}
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon04 {
+		margin: 15px 18px 0 18px;
+	}
+}
+
+
+.main_scon04_01 {
+	margin: 25px 28px 0 28px;
+	font-size: 1rem;
+	color: #787878;
+	line-height: 1.7;
+}
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon04_01 {
+		margin: 25px 18px 0 18px;
+	}
+}
+
+
+
+.main_scon04_02 {
+	text-align: center;
+}
+
+.main_scon04_02 img {
+	margin-top: 30px;
+	width: 268px;
+	height: 132px;
+}
+
+
+/* main_scon05 */
+.main_scon05 {
+	margin: 20px 28px 0 28px;
+	font-size: 1.176rem;
+	line-height: 1.5;
+	color: #000;
+}
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon05 {
+		margin: 20px 18px 0 18px;
+	}
+}
+
+
+.main_scon05_01 {
+	margin: 10px 28px 0 28px;
+	font-size: 1.059rem;
+	line-height: 1.5;
+	color: #787878;
+}
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon05_01 {
+		margin: 10px 18px 0 18px;
+	}
+}
+
+
+.main_scon05_02 {
+	background: url("../images/bg_photo.png") no-repeat scroll 0 0 / 322px 212px;
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 322px;
+	height: 212px;
+	text-align: center;
+}
+
+.main_scon05_02 img {
+	width: 302px;
+	height: 192px;
+	margin-top: 10px;
+}
+
+
+/* main_scon06 */
+.main_scon06 {
+	margin: 20px 28px 0 28px;
+	font-size: 1rem; /*20181030수정*/
+	line-height: 1.5;
+	color: #5c6088;
+	padding-left: 20px;
+	border-left: 2px solid #5c5f88;
+}
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon06 {
+		margin: 20px 18px 0 18px;
+	}
+}
+
+
+.main_scon06 span {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+
+
+/* main_scon07 */
+.main_scon07 {
+	margin: 0px 28px 0 28px;
+}
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon07 {
+		margin: 0px 18px 0 18px;
+	}
+}
+
+
+
+.main_scon07 p {
+	color: #787878;
+	font-size: 0.912rem;
+	line-height: 1.5;
+	padding-bottom: 15px;
+}
+
+
+
+/* main_scon08 */
+.main_scon08 li {
+}
+
+.main_scon08 li a img {
+	vertical-align: middle;
+	position: absolute;
+	right: 28px;
+	top: 25px;
+}
+
+.main_scon08_menu_open {
+	position: relative;
+	padding: 20px 28px;
+	background-color:#fcfcfe;
+	font-size: 1.294rem;
+	border-bottom: 1px solid #f0f0f0;
+	display: block;
+}
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon08_menu_open {
+		padding: 20px 18px;
+	}
+}
+
+
+
+.main_scon08_menu_close {
+	position: relative;
+	padding: 20px 28px;
+	background-color:#fff;
+	font-size: 1.294rem;
+	border-bottom: 1px solid #f0f0f0;
+	display: block;
+}
+	
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon08_menu_close {
+		padding: 20px 18px;
+	}
+}
+	
+	
+.main_scon08_smenu_check {
+	margin-top: 15px;
+	position: relative;
+	padding: 20px;
+	background-color:#5c6088;
+	color: #fff;
+	font-size: 1.176rem;
+	line-height: 1.2;
+	display: block;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+.main_scon08_smenu_check P {
+	padding-bottom: 10px;
+}
+
+.main_scon08_smenu_check span {
+	font-size: 0.912rem;
+	font-weight: normal;
+}
+
+.custom_check02_area {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+
+.main_scon08_smenu_uncheck {
+	margin-top: 15px;
+	position: relative;
+	padding: 20px;
+	background-color:#fff;
+	border: 1px solid #f0f0f0;
+	color: #000;
+	font-size: 1.176rem;
+	line-height: 1.2;
+	display: block;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+.main_scon08_smenu_uncheck P {
+	padding-bottom: 10px;
+}
+
+.main_scon08_smenu_uncheck span {
+	color: #858585;
+	font-size: 0.912rem;
+	font-weight: normal;
+}
+
+
+
+.main_scon08_01 {
+	font-size: 1.059rem;
+	line-height: 1.5;
+}
+
+.main_scon08_02 {
+	margin-top: 15px;
+	padding: 17px;
+	line-height: 1.5;
+	background-color: #303450;
+	color: #fff;
+	font-size: 0.912rem;
+}
+
+.main_scon08_02 span {
+	color:#04c0ba;
+}
+
+.main_scon08_02 a {
+	margin-top: 10px;
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	background-color: #04c0ba;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.main_scon08_02 a:hover {
+	margin-top: 10px;
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	background-color: #038d89;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+/* main_scon09 */
+.main_scon09 {
+	margin: 15px 28px 0 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon09 {
+		margin: 15px 18px 0 18px;
+	}
+}
+
+
+
+.main_scon09 p:first-child{
+	font-size: 1.176rem;
+	color: #000;
+}
+
+.main_scon09 p:last-child {
+	font-size: 1rem;
+	line-height:1.5;
+	color: #787878;
+	margin-top: 10px;
+}
+
+/* main_scon10 */
+.main_scon10 li a {
+	padding: 0 28px;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	width: calc(100% - 56px)
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon10 li a {
+		padding: 0 18px;
+	}
+}
+
+
+.main_scon10 li a:hover {
+	height: 50px;
+	line-height: 50px;
+	background-color: #f8f8fa;
+}
+
+.main_scon10 ul li a img {
+	padding-right: 5px;
+	vertical-align: middle;
+	width: 20px;
+}
+
+
+/* main_scon11 */
+.main_scon11 {
+	
+	margin: 30px 28px 0 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon11 {
+		margin: 30px 18px 0 18px;
+	}
+}
+
+
+
+.main_scon11 p {
+	font-size: 0.959rem;
+	margin-bottom: 10px;
+}
+
+
+
+/* main_scon12 */
+.main_scon12 {
+	margin: 0 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon12 {
+		margin: 0 18px;
+	}
+}
+
+
+
+
+.main_scon12 p {
+	font-size: 0.824rem;
+	line-height: 1.5;
+}
+
+.main_scon12 h3 {
+	font-weight: bold;
+	font-size: 0.882rem;
+}
+
+.main_scon12 h4 {
+	font-size: 0.882rem;
+}
+
+
+/* main_scon13 */
+
+.main_scon13 {
+	text-align: center;
+}
+
+.main_scon13 p {
+	font-size:0.912rem;
+	color: #6d6d6d;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main_scon13 a {
+	font-size:0.824rem;
+	text-decoration: underline;
+	color: #787878;
+} 
+
+
+/* main_scon14 */
+
+.main_scon14 {
+	margin:30px 28px 0 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon14 {
+		margin:30px 18px 0 18px;
+	}
+}
+
+
+
+
+.main_scon14 p {
+	font-size:0.912rem;
+	line-height: 1.5;
+	color: #404040;
+}
+
+
+/* main_scon15 */
+
+.main_scon15 {
+	margin:5px 28px 15px 28px;
+	padding: 20px;
+	background-color: #fafafa;
+	height: 120px;
+	overflow-x: hidden;
+    overflow-y: auto;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon15 {
+		margin:5px 18px 15px 18px;
+	}
+}
+
+.main_scon15 h3 {
+	font-size:0.912rem;
+}
+
+.main_scon15 p {
+	font-size:0.912rem;
+	line-height: 1.5;
+	color: #404040;
+}
+
+
+/* main_scon16 */
+
+.main_scon16 {
+	margin:5px 28px 15px 28px;
+	padding: 20px;
+	background-color: #fafafa;
+	padding-top: 30px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon16 {
+		margin:5px 18px 15px 18px;
+	}
+}
+
+
+.main_scon16 h3 {
+	font-size:0.912rem;
+}
+
+.main_scon16 p {
+	font-size:0.912rem;
+	line-height: 1.5;
+	color: #404040;
+}
+
+
+
+/* main_scon17 */
+
+.main_scon17 p {
+	margin:30px 28px 30px 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon17 p {
+		margin:30px 18px 30px 18px;
+	}
+}
+
+
+.main_scon17 p {
+	font-size:0.824rem;
+	line-height: 1.5;
+	color: #787878;
+}
+
+/* main_scon18 */
+
+.main_scon18 {
+	margin:15px 28px 0px 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon18 {
+		margin:15px 18px 0px 18px;
+	}
+}
+
+
+
+.main_scon18 p {
+	font-size:0.882rem;
+	line-height: 1.5;
+	color: #969696;
+}
+
+/* main_scon19 */
+
+.main_scon19 a {
+	border-bottom: 1px solid #f8f8f8;
+	padding: 20px 0px 35px 0px;
+	margin: 0 28px;
+	width: calc(100% - 56px);
+	display: inline-block;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon19 a {
+		border-bottom: 1px solid #f8f8f8;
+		padding: 20px 0px 35px 0px;
+		margin: 0 18px;
+		width: calc(100% - 36px);
+		display: inline-block;
+	}
+}
+
+
+
+
+.main_scon19_01 {
+	font-size:0.912rem;
+	line-height: 1.5;
+	color: #5c6088;
+	font-weight: bold;
+}
+
+.main_scon19_02 {
+	margin-top: 5px;
+	font-size:0.912rem;
+	line-height: 1.5;
+	color: #000000;
+}
+
+.main_scon19_03 {
+	margin-top: 15px;
+	font-size:0.912rem;
+	line-height: 1.5;
+	color: #787878;
+}
+
+
+/* main_scon20 */
+.main_scon20 {
+	padding: 20px 0px 35px 0px;
+	margin: 0 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon20 {
+		
+		margin: 0 18px;
+	}
+}
+
+
+.main_scon20_01 {
+	font-size:0.912rem;
+	line-height: 1.5;
+	color: #5c6088;
+	font-weight: bold;
+}
+
+.main_scon20_02 {
+	margin-top: 5px;
+	font-size:0.912rem;
+	line-height: 1.5;
+	color: #000000;
+}
+
+.main_scon20_03 {
+	margin-top: 15px;
+	font-size:0.912rem;
+	line-height: 1.5;
+	color: #787878;
+}
+
+
+/* main_scon21 */
+.main_scon21 {
+	margin: 40px 28px 0 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon21 {
+		margin: 40px 18px 0 18px;
+	}
+}
+
+
+
+
+.main_scon21_01 {
+	font-size:1.059rem;
+	line-height: 1.5;
+	color: #000;
+	font-weight: bold;
+}
+
+.main_scon21_02 {
+	font-size:0.765rem;
+	line-height: 1.5;
+	margin-top: 5px;
+	color: #777777;
+}
+
+/* main_scon22 */
+.main_scon22 {
+	margin: 30px 28px 0 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon22 {
+		margin: 30px 18px 0 18px;
+	}
+}
+
+
+.main_scon22 p {
+	color:#282d49;
+	font-size: 0.912rem
+}
+
+/* main_scon23 */
+.main_scon23 {
+	height: 160px;
+	overflow-x: hidden;
+    overflow-y: auto;
+	border-top: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	margin: 30px 28px 0 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon23 {
+		margin: 30px 18px 0 18px;
+	}
+}
+
+
+/* main_scon24 */
+.main_scon24 {
+	margin: 40px 28px 0 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon24 {
+		margin: 40px 18px 0 18px;
+	}
+}
+
+.main_scon24 p {
+	font-size: 1.059rem;
+
+}
+
+/* main_scon25 */
+.main_scon25 {
+	margin: 30px 28px 0 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon25 {
+		margin: 30px 18px 0 18px;
+	}
+}
+
+
+.main_scon25 p {
+	font-size: 1.412rem;
+}
+
+.main_scon25 p span {
+	color: #099bca;
+}
+
+.main_scon25 p span {
+	color: #099bca;
+}
+
+
+/* main_scon26 */
+.main_scon26 {
+	margin: 35px 28px 0 28px;
+	background-color: #f0f0f0;
+	text-align: center;
+	padding: 70px 0 50px 0;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon26 {
+		margin: 35px 18px 0 18px;
+	}
+}
+
+
+.main_scon26 p {
+	font-size: 0.912rem;
+	line-height: 2;
+}
+
+.main_scon26 a {
+	color: #fff;
+	background-color: #089ac9;
+	height: 54px;
+	line-height: 54px;
+	display: inline-block;
+	margin-top: 20px;
+	width : calc(100% - 74px);
+}
+
+/* main_scon27 */
+.main_scon27 {
+	padding: 20px 28px 20px 28px;
+    font-size: 0.706rem;
+	color: #797979;
+	line-height: 1.5;
+	background-color: #f8f8f8;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon27 {
+		padding: 20px 18px 20px 18px;
+		font-size: 0.706rem;
+		color: #797979;
+		line-height: 1.5;
+		background-color: #f8f8f8;
+	}
+}
+
+
+.main_scon27 p {
+	margin-top: 10px;
+}
+
+
+/* main_scon28 */
+.main_scon28 img{
+	margin-top: 30px;
+	width: 100%;
+}
+
+/* main_scon29 */
+.main_scon29 {
+	margin: 30px 28px 0 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon29 {
+		margin: 30px 18px 0 18px;
+	}
+}
+
+
+.main_scon29 h4{
+	font-size: 0.824rem;
+	color: #787878;
+}
+
+.main_scon29 p {
+	margin-top: 10px;
+	font-size: 0.824rem;
+	line-height: 1.7;
+	padding-bottom:40px;
+	border-bottom : 1px solid #f2f2f2;
+}
+
+/* main_scon30 */
+.main_scon30 {
+	margin: 30px 28px 0 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon30 {
+		margin: 30px 18px 0 18px;
+	}
+}
+
+
+.main_scon30 h4{
+	font-size: 0.824rem;
+	color: #404040;
+}
+
+.main_scon30 p {
+	margin-top: 10px;
+	font-size: 0.824rem;
+	line-height: 1.7;
+
+}
+
+/* main_scon31 */
+.main_scon31 {
+	margin: 80px 28px 0 28px;
+	border: 1px solid #eaeaea;
+	padding: 17px;
+	position: relative;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon31 {
+		margin: 80px 18px 0 18px;
+		
+	}
+}
+
+
+.main_scon31 p {
+	font-size: 0.824rem;
+}
+
+.main_scon31 p span {
+	font-size: 0.706rem;
+}
+
+.main_scon31 a {
+	font-size: 0.824rem;
+	color: #5c5f88;
+	position: absolute;
+	top: 17px;
+	right: 17px;
+}
+
+
+/* main_scon32 */
+.main_scon32 {
+	margin: 40px 28px 0 28px;
+
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon32 {
+		margin: 40px 18px 0 18px;
+
+	}
+}
+
+
+
+.main_scon32 h4 {
+	font-size: 0.959rem;
+	color: #565986;
+}
+
+.main_scon32_01 {
+	margin-top: 10px;
+	padding:  0 20px;
+	background-color:#f0f0f0;
+}
+
+/* main_scon33 */
+.main_scon33 {
+	margin: 30px 28px 0 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon33 {
+		margin: 30px 18px 0 18px;
+	}
+}
+
+
+
+.main_scon33 h3 {
+	font-size: 0.912rem;
+	color: #323754;
+	line-height: 50px;
+}
+
+
+
+/* main_scon34 */
+.main_scon34 {
+	border-bottom: 10px solid #f0f0f0;
+}
+
+
+/* main_scon35 */
+.main_scon35 {
+	margin: 40px 28px 40px 28px;
+
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon35 {
+		margin: 40px 18px 40px 18px;
+	}
+}
+
+
+.main_scon35 p {
+	font-size: 0.912em;
+	color: #767676;
+	line-height: 1.5;
+	display: inline-block;
+}
+
+.main_scon35 span {
+	font-size: 0.912em;
+	color: #e94a18;
+}
+
+
+/* main_scon36 */
+.main_scon36 {
+	border-top: 1px solid #f0f0f0;
+	padding:50px 0 40px 0;
+	margin: 0px 28px 0px 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon36 {
+		
+		margin: 0px 18px 0px 18px;
+	}
+}
+
+
+
+.main_scon36 h4 {
+	font-size: 1.206rem;
+}
+
+.main_scon36 h4 span {
+	color: #e94a18;
+}
+
+
+/* main_scon37 */
+.main_scon37 {
+	margin: 0px 28px 0px 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon37 {
+		margin: 0px 18px 0px 18px;
+	}
+}
+
+.main_scon37 h4 {
+	font-size: 1.012rem;
+}
+
+.main_scon37 p {
+	padding-top: 15px;
+	line-height: 1.5;
+	font-size: 0.959rem;
+}
+
+/* main_scon38 */
+.main_scon38 {
+	margin: 30px 28px 15px 28px;
+}
+
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon38 {
+		margin: 30px 18px 15px 18px;
+	}
+}
+
+
+
+.main_scon38 h4 {
+	font-size: 1.012rem;
+	font-weight: bold;
+}
+
+
+/* main_scon39 */
+
+.main_scon39 {
+	margin:25px 28px 25px 28px;
+	padding: 20px;
+	background-color: #fafafa;
+	height: 180px;
+	overflow-x: hidden;
+    overflow-y: auto;
+	letter-spacing: 0px; /*20181030추가*/
+}
+
+.main_scon39 p {
+	font-size: 0.882rem !important;
+}
+
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon39 {
+		margin:25px 18px 25px 18px;
+	}
+}
+
+
+
+.main_scon39 p {
+	font-size:0.706rem;
+	line-height: 1.5;
+	color: #6f6f6f;
+}
+
+
+/* main_scon40 */
+
+.main_scon40 {
+	margin:30px 28px 0px 28px;
+	position: relative;
+	border-bottom: 1px solid #f0f0f0;
+	padding-bottom: 15px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon40 {
+		margin:30px 18px 0px 18px;
+	}
+}
+
+
+.main_scon40 p {
+	font-size:1.012rem;
+	line-height: 1.5;
+}
+
+
+/* main_scon41 */
+
+.main_scon41 {
+	margin:30px 28px 0px 28px;
+	text-align: center;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon41 {
+		margin:30px 18px 0px 18px;
+	}
+}
+
+
+.main_scon41 p {
+	margin-top: 20px;
+	font-size: 1.529em;
+}
+
+.main_scon41 img {
+	width: 66px;
+}
+
+/* main_scon42 */
+
+.main_scon42 {
+	margin:40px 28px 0px 28px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_scon42 {
+		margin:40px 18px 0px 18px;
+	}
+}
+
+
+.main_scon42 h3 {
+	font-size: 1.012rem;
+}
+
+
+
+.img_guide01 {
+	text-align: center;
+	margin-top: 45px;
+}
+
+.img_guide01 img {
+	width: 267px;
+}
+
+.main_txt01 {
+	font-size: 0.941rem;
+	line-height: 1.4;
+	padding: 17px 0;
+}
+
+.main_check_area {
+	background-color: #f8f8fa;
+	padding: 19px 0 0px 0;
+}
+
+
+.main_check {
+	margin: 0 28px;
+	padding-bottom: 17px;
+	border-bottom: 4px solid #5c5f88;
+	
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_check {
+		margin: 0 18px;
+	}
+}
+
+
+
+.main_check_area02 {
+	padding: 15px 0 0px 0;
+	border-bottom: 1px solid #f0f0f0
+}
+
+
+.main_check02 {
+	margin: 0 28px;
+	padding-bottom: 17px;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_check02 {
+		margin: 0 18px;
+		padding-bottom: 17px;
+	}
+}
+
+
+.main_check02 p{
+	font-size: 0.765rem;
+	margin: 8px 0 0 33px;
+	color: #787878;
+}
+
+
+.main_check_area03 {
+	background-color: #fff;
+	padding: 19px 0 0px 0;
+	border-top: 1px solid #f0f0f0;
+}
+
+
+.main_check03 {
+	margin: 0 28px;
+	padding-bottom: 17px;
+	
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_check03 {
+		margin: 0 18px;	
+	}
+}
+
+
+.main_check03 p {
+	font-size: 0.912rem;
+	color: #a0a0a0;
+	line-height: 1.5;
+	margin: 5px 0 0 30px;
+}
+
+
+.main_check_area04 {
+	float: left;
+	width: 48%;
+	background-color: #fff;
+	padding: 19px 0 0px 0;
+	display:inline-block;
+}
+
+
+.main_check04 {
+	padding-bottom: 17px;
+}
+
+.main_check_area05 {
+	background-color: #fff;
+	padding: 19px 0 0px 0;
+
+}
+
+
+.main_check05 {
+	padding-bottom: 17px;
+}
+
+.main_check_area05 p {
+	font-size: 0.912rem;
+	color: #a0a0a0;
+	line-height: 1.5;
+	margin: 5px 0 0 30px;
+}
+
+
+
+
+
+
+.main_menu01 {
+	border-bottom:10px solid #f0f0f0;
+}
+
+.main_menu01 li {
+	font-size: 1rem;
+	padding: 16px 0px;
+	margin: 0 28px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_menu01 li {
+		margin: 0 18px;
+	}
+}
+
+.main_menu01 li a img{
+	float: right;
+	width: 9.4285px;
+}
+
+.main_smenu01 {
+	overflow: hidden;
+	margin-top: 15px;
+}
+
+.main_smenu01 li {
+	font-size:0.882rem;
+	width: 35.2777vw;
+	color: #787878;
+	padding: 14px 0px 14px 20px;
+	margin:0;
+	border-bottom: none;
+	float: left;
+	display: inline-block;
+}
+
+.main_menu02 li {
+	font-size: 1rem;
+	padding: 16px 0px;
+	margin: 0 28px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_menu02 li {
+		margin: 0 18px;
+	}
+}
+
+
+.main_menu02 li a img{
+	float: right;
+	width: 16px;
+	vertical-align: bottom;
+	margin: 8px 10px 0 0 ;
+}
+
+.main_smenu02 {
+	overflow: hidden;
+	margin-top: 15px;
+}
+
+.main_smenu02 li {
+	font-size:0.912rem;
+	width: calc(100% - 20px);
+	color: #787878;
+	padding: 14px 0px 14px 20px;
+	margin:0;
+	border-bottom: none;
+	float: left;
+	display: inline-block;
+}
+
+.main_smenu02 li a img{
+	width:9.4285px;
+	margin: 0px 10px 0 0;
+}
+
+.main_smenu02_01 {
+	overflow: hidden;
+	margin-top: 15px;
+}
+
+.main_smenu02_01 li {
+	font-size:0.912rem;
+	width: 40%;
+	color: #787878;
+	padding: 10px 0px 10px 20px;
+	margin:0;
+	border-bottom: none;
+	float: left;
+	display: inline-block;
+}
+
+
+.main_menu03 li {
+	font-size: 0.912rem;
+	padding: 16px 0px;
+	margin: 0 28px;
+	color: #737373;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+	/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	.main_menu03 li {
+		margin: 0 18px;	
+	}
+}
+
+
+.main_menu03 li a img{
+	float: right;
+	width: 16px;
+	vertical-align: bottom;
+	margin: 8px 10px 0 0 ;
+}
+
+
+/***********layer_pop**************/
+.layer_pop01 {
+	position: absolute;
+	top: 58px;
+	background-color: #fff;
+	border: 1px solid #f0f0f0;
+	width: 100%;
+	z-index: 3;
+	height: 300px;
+	overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.layer_pop01 ul li {
+	line-height: 1.5;
+}
+
+.layer_pop01 ul li a {
+	display: inline-block;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+.layer_pop01 ul li a:hover {
+	background-color: #ebebeb;
+}
+
+
+
+
+
+/* 갤럭시s4 */
+@media screen and (min-device-width: 359px) and (max-device-width:371px) {
+	
+	/* main_scon03 */
+	.main_scon03 {
+		margin: 0 auto;
+		padding: 50px 25px 0 25px;
+		background: url("../images/bg_lpop01.png") no-repeat scroll 1% 1% / 320px 217px;
+		width: 270px;
+		height: 167px;
+	}
+
+	.main_scon03_01 {
+		margin: 0 auto;
+		padding: 50px 25px 0 25px;
+		background: url("../images/bg_lpop01_01.png") no-repeat scroll 1% 1% / 320px 152px;
+		width: 270px;
+		height: 102px;
+	}
+
+	.main_scon03_02 {
+		margin: 0 auto;
+		padding: 50px 25px 0 25px;
+		background: url("../images/bg_lpop01_02.png") no-repeat scroll 1% 1% / 320px 128px;
+		width: 270px;
+		height: 78px;
+	}
+
+	.main_scon03_03 {
+		margin: 0 auto;
+		padding: 50px 25px 0 25px;
+		background: url("../images/bg_lpop01_03.png") no-repeat scroll 1% 1% / 320px 105px;
+		width: 270px;
+		height: 55px;
+	}
+	
+	.main_scon01 {
+		padding-left: 24px;
+		font-size: 0.966rem;
+		color: #787878;
+		line-height: 1.5;
+		background: url("../images/bul_descript.png") no-repeat scroll 1% 3px / 15px 15px;
+	} /*20181030수정*/
+
+	.main_scon39 {
+		margin:25px 28px 25px 28px;
+		padding: 20px;
+		background-color: #fafafa;
+		height: 180px;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}/*20181030수정*/
+
+	.main_scon39 p {
+		font-size: 0.966rem;
+	}/*20181030수정*/
+}
+/* /갤럭시s4 */
+
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {
+	
+	/*intro*/
+	.intro_con01 {
+		background-color: #2f375c;
+		height: 253px;
+		position: relative;
+	}
+	.intro_con01_txtarea {
+		padding-top: 50px;
+		margin-left: 20px;
+	}
+	
+	.intro_con01 p:first-child {
+		font-size: 1.3rem
+	}
+
+	.intro_con01 p:last-child {
+		padding-top: 25px;
+		font-size: 2.3rem
+	}
+	
+	.bg_intro01 img {
+		width: 156px;
+	}
+
+	.intro_con02 {
+		background-color: #fff;
+		height: 320px;
+		position: relative;
+	}
+
+	.intro_con02_txtarea {
+		padding-top: 37px;
+		margin-left: 28px;
+	}
+	
+	.intro_con02 p:last-child {
+		padding-top: 16px;
+		font-size: 0.824rem;
+		line-height: 1.5;
+	}
+	
+	.intro_con02 div img:first-child {
+		width: 118px;
+	}
+
+	.intro_con02 div img:last-child {
+		width: 264px;
+	}
+
+	/* main_scon03 */
+	.main_scon03 {
+		margin: 0 auto;
+		padding: 45px 25px 0 25px;
+		background: url("../images/bg_lpop01_i5.png") no-repeat scroll 1% 1% / 284px 246px;
+		width: 234px;
+		height: 201px;
+	}
+
+	.main_scon03_01 {
+		margin: 0 auto;
+		padding: 50px 25px 0 25px;
+		background: url("../images/bg_lpop01_01_i5.png") no-repeat scroll 1% 1% / 284px 188px;
+		width: 234px;
+		height: 138px;
+	}
+
+	.main_scon03_02 {
+		margin: 0 auto;
+		padding: 45px 25px 0 25px;
+		background: url("../images/bg_lpop01_02_i5.png") no-repeat scroll 1% 1% / 284px 132px;
+		width: 234px;
+		height: 87px;
+	}
+
+	.main_scon03_03 {
+		margin: 0 auto;
+		padding: 40px 25px 0 25px;
+		background: url("../images/bg_lpop01_03.png") no-repeat scroll 1% 1% / 284px 93px;
+		width: 234px;
+		height: 53px;
+	}
+	
+	.main_scon05_02 {
+		background: url("../images/bg_photo.png") no-repeat scroll 0 0 / 250px 164px;
+		margin: 0 auto;
+		margin-top: 25px;
+		width: 250px;
+		height: 164px;
+		text-align: center;
+	}
+
+	.main_scon05_02 img {
+		width: 236px;
+		height: 150px;
+		margin-top: 7px;
+	}
+	
+	.layer_pop01 {
+		height: 180px;
+	}
+	
+	.main_scon03 a {
+		margin-top: 15px;
+		background-color: #04c0ba;
+		color: #fff;
+		height: 46px;
+		line-height: 46px;
+		border-radius: 23px;
+		font-size: 0.882rem;
+		display: inline-block;
+		padding-left: 10px;
+		width: calc(100% - 10px)
+	}/* 20181030추가*/
+	
+/* /아이폰5 */

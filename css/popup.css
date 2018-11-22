@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+
+/***********레이아웃***********/
+
+#wrapper340 {
+    position: relative;
+	overflow: hidden;
+    width: 340px;
+	/*background-color: red;*/
+	border-radius: 5px;
+}
+
+#wrapper380 {
+    position: relative;
+	overflow: hidden;
+    width: 380px;
+	/*background-color: red;*/
+	border-radius: 5px;
+}
+
+
+/*pop_title*/
+.pop_title {
+	height: 50px;
+	text-align: center;
+	background-color: #fff;
+	position: fixed;
+    top: 0;
+	width: 100%;
+	z-index:3;
+}
+
+.pop_title h1 {
+	font-size: 1.176rem;
+	line-height: 48px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.pop_title h2 {
+	font-size: 0.941rem;
+	line-height: 48px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.pop_title02 {
+	height: 70px;
+	text-align: center;
+	background-color: #fff;
+	position: fixed;
+    top: 0;
+	width: 100%;
+	z-index:3;
+} 
+
+.pop_title02 h2 {
+	margin-top: 10px;
+	font-size: 0.941rem;
+	line-height:1.5;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/* pop_con01*/
+.pop_con01 {
+	padding: 20px 0;
+	text-align: center;
+}
+
+/* pop_con02*/
+.pop_con02 {
+	padding: 46px 0;
+	margin:0 20px;
+	text-align: center;
+}
+.pop_con02 p:first-child {
+	font-size: 1.176rem;
+}
+
+.pop_con02 p:last-child {
+	margin-top: 18px;
+	font-size: 0.882rem;
+	color: #787878;
+}
+
+/*   /pop_con02*/
+
+
+/* pop_con03*/
+.pop_con03 {
+	padding: 46px 0;
+	margin:0 10px;
+	text-align: center;
+}
+
+.pop_con03 p {
+	font-size: 1.176rem;
+}
+
+/*   /pop_con03*/
+
+/* pop_con04*/
+.pop_con04 {
+	padding: 30px 0;
+	margin:0 20px;
+	text-align: center;
+}
+
+
+.pop_con04 h1 {
+	font-size: 1.235rem;
+	text-align: center;
+}
+/*   /pop_con04*/
+
+
+/* pop_con05*/
+.pop_con05 {
+	padding: 30px 0;
+}
+
+
+.pop_con05 h1 {
+	font-size: 1.235rem;
+	text-align: center;
+}
+/*   /pop_con05*/
+
+
+.pop_menu01 li {
+	
+}
+
+.pop_menu01 li a{
+	display: inline-block;
+	padding: 10px 0;
+	font-size: 1.176rem;
+	width: 100%;
+}
+
+.pop_menu01 li a:hover {
+	background-color: #ebebeb;
+}
+
+
+
+
+/* 아이폰5 */
+@media screen and (min-device-width: 319px) and (max-device-width:321px) {	
+	#wrapper340 {
+		position: relative;
+		overflow: hidden;
+		width: 300px;
+		/*background-color: red;*/
+		border-radius: 5px;
+	}
+
+	#wrapper380 {
+		position: relative;
+		overflow: hidden;
+		width: 300px;
+		/*background-color: red;*/
+		border-radius: 5px;
+	}
+}
+/* /아이폰5 */
+
