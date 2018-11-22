@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>My page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no">
+    <script src="https://unpkg.com/react@latest/umd/react.development.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react-dom@latest/umd/react-dom.development.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@material-ui/core/umd/material-ui.development.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/babel-standalone@latest/babel.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+const {
+  TextField,
+  Button,
+  colors,
+  createMuiTheme,
+  CssBaseline,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
+  Icon,
+  MuiThemeProvider,
+  Typography,
+  withStyles,
+
+} = window['material-ui'];
+
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      light: colors.purple[300],
+      main: colors.purple[500],
+      dark: colors.purple[700],
+    },
+    secondary: {
+      light: colors.green[300],
+      main: colors.green[500],
+      dark: colors.green[700],
+    },
+  },
+  typography: {
+    useNextVariants: true,
+  },
+});
+
+const styles = theme => ({
+  container: {
+    display: 'flex',
+    flexWrap: 'wrap',
+  },
+  textField: {
+    marginLeft: theme.spacing.unit,
+    marginRight: theme.spacing.unit,
+    width: 200,
+  },
+});
+
+function DatePikker(props){
+  const { classes } = props;
+}
+
+class Index extends React.Component {
+  state = {
+    open: false,
+  };
+
+  handleClose = () => {
+    this.setState({
+      open: false,
+    });
+  };
+
+  handleClick = () => {
+    this.setState({
+      open: true,
+    });
+  };
+
+  render() {
+    const { classes } = this.props;
+    const { open } = this.state;
+
+    return (
+      <form className={classes.container} noValidate>
+        <TextField
+          id="date"
+          label="Birthday"
+          type="date"
+          defaultValue="2017-05-24"
+          className={classes.textField}
+          InputLabelProps={{
+            shrink: true,
+          }}
+        />
+      </form>
+    );
+  }
+}
+
+const App = withStyles(styles)(Index);
+
+ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+  </body>
+</html>
